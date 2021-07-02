@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="En">
+  <head>
+    <title>Stino Drone</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  <body id="top" >
+    <div class="achtergrond zoom overlay" style="background-image:url('DJI_0386.JPG');"> 
+      <div class="rijen rij1">
+        <div id="bovenMenuBalk" class="hoc niks">
+          <div class="fl_left"> 
+            <ul>
+              <li><i class="fas fa-phone rgtspace-5"></i> +00 (123) 456 7890</li>
+              <li><i class="far fa-envelope rgtspace-5"></i><a href="mailto:voorbeeld@voorbeeld.com?subject=Vraag&#160;of&#160;opmerking&#160;over&#160;Stino&#160;Drone&body=Beste&#160;Stino&#160;Drone,">voorbeeld@voorbeeld.com</a></li>
+            </ul>
+          </div>
+          <div class="fl_right"> 
+            <ul class="nospace">
+              <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+              <li><a onclick="openContact()" title="Help Centre"><i class="fas fa-question"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ################################################################################################ -->
+      <!-- Contact div & Menu balk boven -->
+      <!-- ################################################################################################ -->
+
+      <div class="rijen rij2">
+        <div class="contact" id="contactOpen">
+          <div class="tekstContact">
+            <h1>Vragen of opmerkingen, neem gerust contact op.</h1>
+            <br>
+            <p>Heb je vragen of opmerkingen over iets? Je kan me zowel per telefoon als per mail bereiken.</p>
+            <p>Mijn voorkeur gaat uit naar mailen omdat ik niet altijd mijn telefoon op kan nemen.</p>
+            <p>Onderstaand mijn email adres en mijn telefooon nummer</p>
+            <br>
+            <ul>
+              <li><i class="far fa-envelope rgtspace-5"></i><a href="mailto:voorbeeld@voorbeeld.com?subject=Vraag&#160;of&#160;opmerking&#160;over&#160;Stino&#160;Drone&body=Beste&#160;Stino&#160;Drone,">voorbeeld@voorbeeld.com</a></li>
+              <li><i class="fas fa-phone rgtspace-5" ></i> +00 (123) 456 7890</li>
+              
+            </ul>
+          </div>
+          <div class="kruisje">
+            <i class="fas fa-times-circle fa-3x" onclick="sluitContact()"></i>
+          </div>
+        </div>
+
+        <div id="telefoon">
+          <p>Deze site is nog niet geschikt voor telefoon gebruik.</p><br>
+          <p>Als je toch door wil gaan is de kans groot dat de site er niet goed uit ziet.</p>
+          <button class="telefoonButton" onclick="sluitenTelefoon()">Ga toch door</button>
+
+        </div>
+
+        <header id="header" class="hoc niks">
+          <div id="logo" class="fl_left"> 
+            <h1><a href="index.html">Stino Drone</a></h1>
+          </div>
+          <nav id="menuBalk" class="fl_right"> 
+            <ul class="niks">
+              <li class="homeKnopMenuBalk"><a href="index.html">Home</a></li>
+              <li><a class="drop" href="gallerij.html">Gallerij</a>
+                <ul>
+                  <li><a href="foto's.html">Foto's</a></li>
+                  <li><a href="video's.html">Video's</a></li>
+                  
+                </ul>
+              </li>
+              <li><a class="drop" href="https://www.dji.com/nl/mavic-mini" target="blank">De Drone</a>
+                <ul>
+                  <li><a href="https://www.dji.com/nl/mavic-mini" target="blank"> De site van DJI</a></li>               
+                </ul>
+              </li>
+              <li><a href="wie_ben_ik.html">Over mij</a></li>
+              <li><a onclick="openContact()">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <!-- ################################################################################################ -->
+      <!-- Pagina titel en buttons daar onder -->
+      <!-- ################################################################################################ -->
+
+      <div id="menuTwee" class="hoc niks"> 
+        <article>
+          <h3 class="heading">Drone Shots by Stino</h3>
+          <footer>
+            <ul class=" inline pushright">
+              <li><a class="btn" href="wie_ben_ik.html">Over mij</a></li>
+              <li><a class="btn inverse" href="inhuren.html">Inhuren</a></li>
+              
+            </ul>
+          </footer>
+        </article>
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- De 3 links onder de titel -->
+    <!-- ################################################################################################ -->
+    <div class="rijen rij4">
+      <main class="hoc container niks"> 
+        <div id="menuDrie">
+          <ul class=" group btmspace-80">
+            <li class="one_third eersteLink">
+              <figure><a class="oranje" href="foto's.html"><img src="fotoHomePage.jpg" class="hoverImg"></a>
+                <figcaption>
+                  <h6 class="heading">Gallerij: Foto's</h6>
+                  <p>Ik heb al veel verschillende foto's gemaakt met mijn drone. Om er een paar te bekijken klik je op het bovenstande huis.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="one_third">
+              <figure><a class="oranje" href="https://www.dji.com/nl/mavic-mini" target="blank"><img src="Mavic_Mini.png" class="hoverImg"></a>
+                <figcaption>
+                  <h6 class="heading">Mijn Drone</h6>
+                  <p>Voor het maken van Drone shots gebruik ik de DJI Mavic Mini. Voor meer informatie ga naar de website van DJI of klik op boevstaande drone.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="one_third">
+              <figure><a class="oranje" href="video's.html"><img src="DJI_0387.JPG" class="hoverImg"></a>
+                <figcaption>
+                  <h6 class="heading">Gallerij: Video's</h6>
+                  <p>Met mijn DJI Mavic Mini heb ik veel filmpjes gemaakt. Bekijk er een paar door op de bovenstaande vijver te klikken</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <hr class="btmspace-80">
+      </main>
+    </div>
+      <!-- ################################################################################################ -->
+      <!-- Nieuws gedeelte -->
+      <!-- ################################################################################################ -->
+    <div class="achtergrond overlay" style="background-image:url('GeoMapDJI.png');">
+      <div id="splitfifty" class="hoc container niks">
+        <div class="sectiontitle">
+          <p class="heading tekstKop ">Nieuws</p>
+        </div>
+        <div class="achtergrond niks" > 
+          <article>
+            <h6 class="heading ">Waar mag ik vliegen</h6>
+            <p>Vanwege de veiligheid mag je niet overal in Nederland vliegen met een drone. Bekijk daarom hier waar je wel en niet mag vliegen met een drone. Met mijn DJI Mavic Mini mag ik op dit moment wel vliegen in de gele en de oranje zones. Er zijn wel een paar beperkingen zoals de afstand die de drone mag af leggen in een bepaalde zone.</p><br>
+            <footer>
+              <a class="btn" id="knop1" onclick="zekerweten()">Lees meer op de site van DJI</a>
+            </footer>
+            <p id="tekstVerlaten">Je staat op het punt deze site te verlaten. Weet je dit zeker?</p>
+            <footer>
+              <a class="btn inverse" id="knop2" href="https://www.dji.com/nl/flysafe/geo-map">Ja</a>
+              <a class="btn inverse" id="knop3" onclick="tochNiet()">Nee</a>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <!-- ################################################################################################ -->
+    <!-- Statistieken gedeelte home page -->
+    <!-- ################################################################################################ -->
+    
+    <div class="rijen rij4">
+      <div class="hoc container niks"> 
+        <div class="sectiontitle">
+          <p class="heading tekstKop">Statistieken</p>
+        </div>
+        <ul id="stats" class=" group">
+          <li><i class="far fa-clock"></i>
+            <p>6,42</p>
+            <p>uur gevlogen</p>
+          </li>
+          <li><i class="fas fa-arrows-alt-h"></i>
+            <p>27,7</p>
+            <p>Km gevlogen</p>
+          </li>
+          <li><i class="fas fa-angle-double-up"></i>
+            <p>217</p>
+            <p>Keer opgestegen</p>
+          </li>
+          <li><i class="fas fa-camera"></i>
+            <p>398</p>
+            <p>Foto's en Video's gemaakt</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ################################################################################################ -->
+    <!-- Afsluiting pagina -->
+    <!-- ################################################################################################ -->
+
+    <div class="achtergrond overlay rij5" style="background-image:url('DJI-Mavic-Mini.png');">
+      <footer id="afsluitingPagina" class="hoc niks"> 
+        <div class="center btmspace-50">
+          <h6 class="heading">Stino Drone</h6>
+          <ul class="faico niks">
+            <li><a class="faicon-facebook" onclick="geenSocialeMedia()"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="faicon-google-plus" onclick="geenSocialeMedia()"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a class="faicon-linkedin" onclick="geenSocialeMedia()"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="faicon-twitter" onclick="geenSocialeMedia()"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+          <p>Volg ook mijn sociale media kanalen</p>
+        </div>
+        <div class="niks">
+            <div class="block niks"><i class="fas fa-envelope"></i><span><strong> Vragen, stuur een mail: </strong><a href="mailto:voorbeeld@voorbeeld.com?subject=Vraag&#160;of&#160;opmerking&#160;over&#160;Stino&#160;Drone&body=Beste&#160;Stino&#160;Drone,">voorbeeld@voorbeeld.com</a></span></div>
+        </div>
+      </footer> 
+    </div>
+    <a id="backtotop" href="#top"><i class="fas fa-chevron-up fa-2x fa-2x"></i></a>
+
+
+    <!-- ################################################################################################ -->
+    <!-- Javascripten -->
+    <!-- ################################################################################################ -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/javaScript.js"></script>
+    <script>
+
+      
+
+      
+    </script>
+  </body>
+</html>
